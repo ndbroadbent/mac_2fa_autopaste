@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>Label</key>
+        <string>com.ndbroadbent.2fa_autopaste</string>
+        <key>UserName</key>
+        <string>USERNAME</string>
+        <key>ProgramArguments</key>
+        <array>
+          <string>/path/to/2fa_autopaste/2fa_autopaste.sh</string>
+        </array>
+        <key>WorkingDirectory</key>
+        <string>/path/to/2fa_autopaste/</string>
+        <key>StandardOutPath</key>
+        <string>/path/to/2fa_autopaste/stdout.log</string>
+        <key>StandardErrorPath</key>
+        <string>/path/to/2fa_autopaste/stderr.log</string>
+        <key>RunAtLoad</key>
+        <true/>
+        <key>KeepAlive</key>
+        <true/>
+    </dict>
+</plist>
